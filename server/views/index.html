@@ -1,0 +1,32 @@
+{% extends 'layout.html' %}
+
+{% block title %}{% endblock %}
+
+
+{% block content %}
+
+ <div class="container">
+
+ <h1>Add a Animal</h1>
+
+ <form>
+   <div class="form-group">
+     <input type="text" class="form-control" id="name" placeholder="name">
+   </div>
+   <div class="form-group">
+     <input type="text" class="form-control" id="type" placeholder="age">
+   </div>
+  <div class="form-group">
+     <input type="text" class="form-control" id="type" placeholder="ethnicity">
+   </div>
+   <button type="submit" class="btn btn-default">Submit</button>
+ </form>
+ <br>
+ <p id="message"></p>
+ <br>
+ <ul id="all"></ul>
+
+
+ </div>
+
+{% endblock %}
